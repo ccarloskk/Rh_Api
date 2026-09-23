@@ -12,4 +12,4 @@ jobs:
         run: |
           curl -H "Content-Type: application/json" \
           -d "{\"content\":\"🚀 Novo commit enviado para a branch main no projeto API de RH!\"}" \
-          "${{ secrets.DISCORD_WEBHOOK_URL }}"
+          "${{ secrets.DISCORD_WEBHOOK }}"
